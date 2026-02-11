@@ -1,0 +1,17 @@
+# Never commit actual settings (contains API keys)
+.claude/settings.json
+
+# Memory database (personal build data)
+.claude/memory/chad.db
+.claude/memory/chad.db-wal
+.claude/memory/chad.db-shm
+
+# Auto-generated rules (personal to each user)
+.claude/rules/chad-memory.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
