@@ -8,7 +8,7 @@ The lead selects a preset based on task scope. Not every task needs a full team.
 
 | Preset | Team Size | Phases | When to Use |
 |--------|-----------|--------|-------------|
-| **solo** | 0 (no team) | Just work | Single-file fixes, docs, <3 files |
+| **solo** | 0 (no team) | Just work | Single-file fixes, docs, < 3 files |
 | **pair** | 1 teammate | SCAFFOLD + EXECUTE + VALIDATE | Medium changes, 2-5 files, clear scope |
 | **squad** | 2-4 teammates | SPEC + SCAFFOLD + EXECUTE + VALIDATE + INTEGRATE | Features, multi-file, parallelizable |
 | **full** | 4-7 teammates | All phases (INDEX→LEARN) | Large features, refactors, greenfield |
@@ -16,7 +16,7 @@ The lead selects a preset based on task scope. Not every task needs a full team.
 
 ### Preset Selection Heuristic
 
-- Task fits in one sentence + touches <3 files → **solo**
+- Task fits in one sentence + touches < 3 files → **solo**
 - Task is clear + touches 2-5 files + can split into independent chunks → **pair**
 - Task needs architectural planning + touches >5 files → **squad**
 - First time in codebase OR large refactor OR greenfield feature → **full**
